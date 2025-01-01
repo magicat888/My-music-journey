@@ -34,6 +34,8 @@
         * Wotan realizes the consequences of his actions
         ```
 
+!["Rhein daughter"](images/Ring1.png)
+
 !!! Abstract "Die Walküre (The Valkyrie)"
 
     === "Act I"
@@ -63,6 +65,8 @@
         * Brünnhilde vows to find a hero who can rescue her from the flames.
         ```
 
+!["Brünnhilde"](images/Ring2.png)
+
 !!! Abstract "Siegfried"
 
     === "Act I"
@@ -72,6 +76,7 @@
         * Siegfried finds the broken pieces of Nothung and reforges it with the help of the forest bird.
         * Siegfried defeats Fafner and claims the Ring of power.
         ```
+
 
     === "Act II"
         ```markdown
@@ -89,6 +94,8 @@
         * Siegfried is mortally wounded, and Brünnhilde learns of his death.
         * Brünnhilde sacrifices herself on Siegfried's funeral pyre, ending the curse of the Ring.
         ```
+
+!["Save Brünnhilde"](images/Ring3.png)
 
 !!! Abstract "Götterdämmerung (Twilight of the Gods)"
 
@@ -116,6 +123,8 @@
         * The gods and the world are consumed by flames, marking the end of the old order.
         * The Rhine Maidens reclaim the Ring from the depths, restoring balance.
         ```
+
+!["Twilight"](images/Ring4.png)
 
 ## Characters
 
