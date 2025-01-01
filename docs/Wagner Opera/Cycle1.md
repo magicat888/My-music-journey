@@ -31,12 +31,18 @@ flowchart TD
 
 ```mermaid
 timeline
-    Section Act I
-    The stormy night : Scene 1 - Siegmund seeks shelter in Hunding's hut : Scene 2 - Siegmund and Sieglinde fall in love, and Siegmund learns about his destiny : Scene 3 - Hunding returns and challenges Siegmund to a duel
+    Section Scene 1
+    The Rhinemaidens : The Rhinemaidens play and sing in the Rhine River, and Alberich appears and tries to seduce them
 
-    Section Act II
-    The Valkyries : Scene 1 - Wotan instructs Brünnhilde to protect Siegmund in battle : Scene 2 - The Valkyries gather and Brünnhilde tells them about Siegmund : Scene 3 - Fricka intervenes and demands that Wotan punish Siegmund : Scene 4 - Wotan is forced to withdraw his protection, and Brünnhilde disobeys him to save Siegmund
+    Section Scene 2
+    The theft of the gold : Alberich steals the gold from the Rhinemaidens and forges the Ring of Power
 
-    Section Act III
-    The Ride of the Valkyries : Scene 1 - The Valkyries ride to Valhalla with the bodies of fallen warriors : Scene 2 - Brünnhilde is punished by Wotan for her disobedience : Scene 3 - Wotan puts Brünnhilde to sleep and surrounds her with fire to protect her from harm
+    Section Scene 3
+    The gods and the giants : Wotan and the gods encounter the giants Fafner and Fasolt, who demand the goddess Freia as payment for their work
+
+    Section Scene 4
+    The trickery of Loge : Loge tricks the giants and steals the gold, but the curse of the Ring is revealed
+
+    Section Scene 5
+    The entry into Valhalla : The gods enter Valhalla, but the curse of the Ring and the threat of the giants remain
 ```
