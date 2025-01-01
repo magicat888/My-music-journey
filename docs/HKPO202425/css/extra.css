@@ -1,0 +1,153 @@
+/* General Body Styling */
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Customization */
+.md-header {
+  background-color: #4caf50; /* Green header */
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.md-header .md-header-nav__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.md-header .md-header-nav__link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.md-header .md-header-nav__link:hover {
+  color: #d4f5d4; /* Lighter green on hover */
+}
+
+/* Sidebar Customization */
+.md-sidebar {
+  background-color: #ffffff;
+  border-right: 1px solid #ddd;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.md-sidebar .md-nav {
+  font-size: 0.9rem;
+}
+
+.md-sidebar .md-nav__item a {
+  color: #4caf50;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.md-sidebar .md-nav__item a:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.md-sidebar .md-nav__item--active > a {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Content Area */
+.md-content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.md-content h1,
+.md-content h2,
+.md-content h3,
+.md-content h4,
+.md-content h5,
+.md-content h6 {
+  color: #4caf50;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.md-content p {
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.md-content a {
+  color: #4caf50;
+  text-decoration: none;
+  border-bottom: 1px dashed #4caf50;
+  transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.md-content a:hover {
+  color: #388e3c;
+  border-bottom-color: #388e3c;
+}
+
+/* Code Blocks */
+.md-content pre,
+.md-content code {
+  font-family: "Fira Code", monospace;
+  background-color: #f4f4f4;
+  color: #333;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.md-content pre {
+  overflow-x: auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+/* Tables */
+.md-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background-color: #fff;
+}
+
+.md-content table th,
+.md-content table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.md-content table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Footer */
+.md-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #4caf50;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.md-footer a {
+  color: #d4f5d4;
+  text-decoration: none;
+}
+
+.md-footer a:hover {
+  color: white;
+}
