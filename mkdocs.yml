@@ -65,8 +65,8 @@ markdown_extensions:
 # - autorefs:
 #     # This will automatically generate navigation from the docs directory
 #     auto_nav: true
-extra:
-  social:
-    -  link: https://www.linkedin.com/in/felix-fung-m9384/
+# extra:
+#  social:
+#    -  link: https://www.linkedin.com/in/felix-fung-m9384/
 
 copyright: Copyright &copy; 2024 Felix Fung
