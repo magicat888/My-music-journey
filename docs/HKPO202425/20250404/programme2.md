@@ -88,11 +88,11 @@ Differs from his earlier symphonies in:
 - More integrated thematic development
 ## Performance Considerations
 
-Requires:
+### Requires:
 - Precise rhythmic execution
 - Nuanced dynamic control
 - Understanding of Prokofiev's unique musical language
-Challenges for performers:
+### Challenges for performers:
 - Balancing technical precision
 - Maintaining musical expressiveness
 - Navigating complex rhythmic structures
