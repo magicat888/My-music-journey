@@ -67,7 +67,6 @@ markdown_extensions:
 #     auto_nav: true
 extra:
   social:
-    - icon: simple/linkedin
-      link: https://www.linkedin.com/in/felix-fung-m9384/
+    -  link: https://www.linkedin.com/in/felix-fung-m9384/
 
 copyright: Copyright &copy; 2024 Felix Fung
