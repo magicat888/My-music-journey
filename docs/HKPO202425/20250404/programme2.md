@@ -19,10 +19,12 @@ The symphony follows the classic four-movement structure:
 
 ### First Movement: Moderato
 Sonata allegro form
+
 - Key characteristics:
     - Derived from ballet themes
     - Complex rhythmic patterns
     - Subtle melodic development
+
 - Structural elements:
     - Exposition
     - Development
@@ -30,29 +32,38 @@ Sonata allegro form
 Notable for its neoclassical approach with modern harmonic language
 ### Second Movement: Andante
 Slower, more lyrical movement
+
 - Typically features:
     - Sustained melodic lines
     - Introspective character
     - Subtle orchestral textures
+
 - Contrast to the more energetic outer movements
+
 - Showcases Prokofiev's skill in creating emotional depth
+
 ### Third Movement: Moderato
 Often a scherzo-like movement
+
 - Characteristics:
     - Rhythmic complexity
     - Playful orchestration
     - Quick, intricate musical phrases
+
 Demonstrates Prokofiev's characteristic rhythmic inventiveness
 ### Fourth Movement: Finale (Allegro)
 Typically energetic and conclusive
+
 - Features:
     - Virtuosic orchestral writing
     - Synthesis of earlier thematic material
     - Dramatic conclusion to the symphony
+
 ## Orchestration Details
 
 ### Instrumentation:
 Standard symphony orchestra
+
 - Typical Prokofiev orchestration:
     - Prominent woodwind solos
     - Brass with distinctive character
@@ -83,6 +94,7 @@ Unique timbral combinations
 ## Comparative Analysis
 
 Differs from his earlier symphonies in:
+
 - More refined orchestration
 - Greater harmonic complexity
 - More integrated thematic development
