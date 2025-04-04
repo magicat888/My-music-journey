@@ -16,7 +16,7 @@ The concerto is structured in three movements:
 - Characterized by a lyrical and introspective approach
 - Demonstrates Prokofiev's ability to blend melodic lines with complex rhythmic structures
 ### Second Movement (Andante assai):
-- Opens with elegant pizzicato triplets1
+- Opens with elegant pizzicato triplets
 - Features a lush melody played by the violin
 - Unique rhythmic interplay between the soloist and orchestra
 ### Third Movement (Allegro):
