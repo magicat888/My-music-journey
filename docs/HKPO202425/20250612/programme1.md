@@ -16,7 +16,7 @@ The concerto is structured in three movements:
 
 The concerto consists of three movements:
 
-#### Allegro moderato
+#### Allegro moderato, 26:34
 
 - Form: Sonata form.
 - Themes:
@@ -26,7 +26,7 @@ A contrasting second theme appeared in the solo violin.
 - Important Instrument Involvement: The interaction between the violin and orchestral parts is significant, showcasing both connection and independence.
 - Tempo Changes: Maintains a moderate tempo throughout the movement.
 
-#### Larghetto, 26:34
+#### Larghetto, 11:30
 
 - Form: ABA form.
 - Themes:
@@ -36,9 +36,10 @@ The B section offers contrasting lyrical material.
 - Important Instrument Involvement: The cello and oboe provide rich harmonic support beneath the violin's melody.
 - Tempo Changes: Remains slow and contemplative, with expressive phrasing.
 
-#### Rondo: Allegro, 11:30
+#### Rondo: Allegro, 10:16
 
 - Form: Rondo form (ABACADA).
+- (Sonata Rondo) A, (B b2 B), C, A, (B b2 B) Cadenza A/Coda
 - Themes:
 The main theme is lively and spirited, followed by contrasting episodes.
 - Key Progression: Primarily in D major, with modulations to other keys during the contrasting sections.
@@ -46,7 +47,7 @@ Important Instrument Involvement: Solo violin engages actively with the orchestr
 - Tempo Changes: The energetic tempo propels the movement forward, contributing to its joyous character.
 
 
-### Orchestration, 10:16
+### Orchestration
 
 Beethoven's orchestration for the Violin Concerto incorporates the following instruments:
 
