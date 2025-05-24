@@ -14,6 +14,33 @@ The symphony is structured in five movements:
 4. **Adagio**: A somber and reflective movement, highlighting the emotional depth of the work.
 5. **Allegro**: The final movement, which is triumphant and energetic, bringing the symphony to a powerful conclusion.
 
+The symphony consists of four movements, structured as follows:
+
+#### Andante (in B-flat major):
+- Form: This movement starts with a slow introduction, featuring a solemn and reflective character.
+- Themes: Introduces the main motifs that will recur throughout the symphony.
+- Key Progression: Primarily in B-flat major, with explorations of related harmonies.
+- Important Instrument Involvement: Highlights woodwinds and brass, establishing a dramatic tone.
+- Tempo Changes: Begins slowly, setting a serious emotional backdrop.
+#### Allegro marcato (in D minor):
+- Form: Sonata form.
+- Themes: Characterized by strong, marked rhythms, with a contrasting lyrical second theme.
+- Key Progression: Initiates in D minor, with development sections exploring related keys before returning to the main theme.
+- Important Instrument Involvement: The orchestra, especially brass and strings, plays a crucial role in driving the intensity of the movement.
+- Tempo Changes: Energetic and rhythmic throughout, with varying dynamics to enhance the marcato character.
+#### Adagio (in F major):
+- Form: ABA structure.
+- Themes: Reflective and lyrical, featuring beautiful, melodic lines.
+- Key Progression: Primarily in F major, with emotional development leading back to the main themes.
+- Important Instrument Involvement: Solo instruments like the oboe and cello provide poignant melodies.
+- Tempo Changes: Maintains a slow and contemplative pace, full of expressiveness.
+#### Allegro giocoso (in B-flat major):
+- Form: Rondo form (ABACADA).
+- Themes: Light-hearted and playful, with a lively main theme that reappears throughout the movement.
+- Key Progression: Mostly in B-flat major, interspersed with contrasting episodes in related keys.
+- Important Instrument Involvement: Features lively interactions between the solo strings and the rest of the orchestra, emphasizing rhythm and playfulness.
+- Tempo Changes: Energetic and spirited, concluding the symphony with an uplifting and triumphant finale.
+
 ### Orchestration
 
 The orchestration of Symphony No. 5 is rich and varied, employing a large orchestra:
