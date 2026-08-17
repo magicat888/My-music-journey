@@ -1,17 +1,18 @@
 [project]
 site_name = "My Music Journey"
 site_url = "https://magicat888.github.io/My-music-journey/"
-site_description = "Documenting my music journey — instruments, practice logs, and discoveries"
-site_author = "magicat"
+site_description = "Documenting my music journey — Prokofiev, Mahler, Wagner, HKPO concerts, and more"
+site_author = "Felix Fung"
 repo_url = "https://github.com/magicat888/My-music-journey"
 repo_name = "magicat888/My-music-journey"
-copyright = "&copy; 2026 My Music Journey"
+copyright = "Copyright &copy; 2024 Felix Fung"
 
 [theme]
 name = "material"
 variant = "modern"
 language = "en"
 features = [
+    "navigation.footer",
     "navigation.tabs",
     "navigation.sections",
     "navigation.expand",
@@ -21,27 +22,91 @@ features = [
     "content.code.copy",
 ]
 
-[theme.palette]
-primary = "deep-purple"
-accent = "amber"
+[theme.font]
+text = "Merriweather Sans"
+code = "Red Hat Mono"
 
 [theme.icon]
+logo = "fontawesome/solid/p"
 repo = "fontawesome/brands/github"
+
+[[theme.palette]]
+scheme = "default"
+primary = "blue"
+accent = "deep-orange"
+toggle = { icon = "material/weather-night", name = "Light mode" }
+
+[[theme.palette]]
+scheme = "slate"
+primary = "green"
+accent = "deep-purple"
+toggle = { icon = "material/weather-sunny", name = "Dark mode" }
 
 [navigation]
 items = [
     { title = "Home", path = "index.md" },
-    { title = "Getting Started", path = "getting-started.md" },
-    { title = "Repertoire", children = [
-        { title = "Prokofiev Sonata No. 1", path = "repertoire/prokofiev-sonata-1.md" },
-        { title = "Prokofiev Sonata No. 2", path = "repertoire/prokofiev-sonata-2.md" },
+    { title = "Prokofiev", children = [
+        { title = "Sonatas", path = "Prokofiev/Sonata/index.md" },
+        { title = "Sonata No. 1", path = "Prokofiev/Sonata/Sonata 1/Sonata1.md" },
+        { title = "Sonata No. 1 — Listening", path = "Prokofiev/Sonata/Sonata 1/Sonata1Listense.md" },
+        { title = "Sonata No. 1 — Master", path = "Prokofiev/Sonata/Sonata 1/sonata1master.md" },
+        { title = "Sonata No. 2", path = "Prokofiev/Sonata/Sonata 2/Sonata2.md" },
+        { title = "Sonata No. 3", path = "Prokofiev/Sonata/Sonata3.md" },
+        { title = "Sonata No. 4", path = "Prokofiev/Sonata/Sonata4.md" },
+        { title = "Sonata No. 5", path = "Prokofiev/Sonata/Sonata5.md" },
+        { title = "Sonata No. 6", path = "Prokofiev/Sonata/Sonata6.md" },
+        { title = "Sonata No. 7", path = "Prokofiev/Sonata/Sonata7.md" },
+        { title = "Sonata No. 8", path = "Prokofiev/Sonata/Sonata8.md" },
+        { title = "Sonata No. 9", path = "Prokofiev/Sonata/Sonata9.md" },
+        { title = "Sonata No. 10", path = "Prokofiev/Sonata/Sonata10.md" },
+        { title = "Symphony No. 5", path = "Prokofiev/Others/Symphony5.md" },
     ]},
-    { title = "Practice Log", path = "practice-log.md" },
-    { title = "Resources", path = "resources.md" },
+    { title = "Prokofiev (New Analysis)", children = [
+        { title = "Sonata No. 1 — Structure", path = "repertoire/prokofiev-sonata-1.md" },
+        { title = "Sonata No. 2 — Structure", path = "repertoire/prokofiev-sonata-2.md" },
+    ]},
+    { title = "Mahler Symphonies", path = "Mahler Symphonies/index.md" },
+    { title = "Wagner Ring Cycle", children = [
+        { title = "Overview", path = "Wagner Opera/index.md" },
+        { title = "Das Rheingold", path = "Wagner Opera/Cycle1.md" },
+        { title = "Die Walküre", path = "Wagner Opera/Cycle2.md" },
+        { title = "Siegfried", path = "Wagner Opera/Cycle3.md" },
+        { title = "Götterdämmerung", path = "Wagner Opera/Cycle4.md" },
+    ]},
+    { title = "Coldplay", children = [
+        { title = "History", path = "Coldplay/History.md" },
+        { title = "Songs", path = "Coldplay/Songs.md" },
+        { title = "Lyrics", path = "Coldplay/Lyrics.md" },
+    ]},
+    { title = "HKPO 2024/25", children = [
+        { title = "Season Overview", path = "HKPO202425/index.md" },
+        { title = "22 Nov 2024", path = "HKPO202425/20241122/index.md" },
+        { title = "12 Dec 2024", path = "HKPO202425/20241212/index.md" },
+        { title = "17 Jan 2025", path = "HKPO202425/20250117/index.md" },
+        { title = "4 Apr 2025", path = "HKPO202425/20250404/index.md" },
+        { title = "2 May 2025", path = "HKPO202425/20250502/index.md" },
+        { title = "9 May 2025", path = "HKPO202425/20250509/index.md" },
+        { title = "12 Jun 2025", path = "HKPO202425/20250612/index.md" },
+        { title = "27 Jun 2025", path = "HKPO202425/20250627/index.md" },
+        { title = "4 Jul 2025", path = "HKPO202425/20250704/index.md" },
+    ]},
 ]
 
 [plugins]
 search = {}
 
 [markdown]
-extensions = ["admonition", "codehilite", "toc"]
+extensions = [
+    "attr_list",
+    "admonition",
+    "pymdownx.details",
+    "pymdownx.emoji",
+    "pymdownx.highlight",
+    "pymdownx.inlinehilite",
+    "pymdownx.snippets",
+    "pymdownx.superfences",
+    "pymdownx.tabbed",
+]
+
+[extra_css]
+files = ["overrides/extra.css"]
