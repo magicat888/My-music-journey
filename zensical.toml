@@ -8,39 +8,7 @@ repo_name = "magicat888/My-music-journey"
 copyright = "Copyright &copy; 2024 Felix Fung"
 
 [theme]
-name = "material"
-variant = "modern"
-language = "en"
-features = [
-    "navigation.footer",
-    "navigation.tabs",
-    "navigation.sections",
-    "navigation.expand",
-    "navigation.top",
-    "search.suggest",
-    "search.highlight",
-    "content.code.copy",
-]
-
-[theme.font]
-text = "Merriweather Sans"
-code = "Red Hat Mono"
-
-[theme.icon]
-logo = "fontawesome/solid/p"
-repo = "fontawesome/brands/github"
-
-[[theme.palette]]
-scheme = "default"
-primary = "blue"
-accent = "deep-orange"
-toggle = { icon = "material/weather-night", name = "Light mode" }
-
-[[theme.palette]]
-scheme = "slate"
-primary = "green"
-accent = "deep-purple"
-toggle = { icon = "material/weather-sunny", name = "Dark mode" }
+name = "slate-theme"
 
 [navigation]
 items = [
