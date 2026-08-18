@@ -1,0 +1,151 @@
+/* Theme Chooser Panel */
+.theme-chooser-toggle {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 999;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  transition: transform 0.2s, background 0.2s;
+}
+.theme-chooser-toggle:hover {
+  transform: scale(1.1);
+}
+.theme-chooser-toggle svg {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.theme-chooser-panel {
+  position: fixed;
+  top: 0;
+  right: -320px;
+  z-index: 1000;
+  width: 300px;
+  height: 100vh;
+  background: var(--md-default-bg-color);
+  border-left: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: -4px 0 16px rgba(0,0,0,0.15);
+  transition: right 0.3s ease;
+  overflow-y: auto;
+  padding: 1.5rem 1rem;
+}
+.theme-chooser-panel.open {
+  right: 0;
+}
+
+.theme-chooser-panel h3 {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--md-default-fg-color--light);
+}
+
+.theme-chooser-panel .section {
+  margin-bottom: 1.2rem;
+}
+
+.theme-chooser-panel .close-btn {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--md-default-fg-color--light);
+  font-size: 1.4rem;
+  line-height: 1;
+  padding: 0.25rem;
+}
+.theme-chooser-panel .close-btn:hover {
+  color: var(--md-default-fg-color);
+}
+
+/* Scheme toggle */
+.scheme-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.scheme-buttons button {
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.15s;
+}
+.scheme-buttons button.active,
+.scheme-buttons button:hover {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border-color: var(--md-primary-fg-color);
+}
+
+/* Color grid */
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.35rem;
+}
+.color-swatch {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.15s, border-color 0.15s;
+}
+.color-swatch:hover {
+  transform: scale(1.2);
+}
+.color-swatch.active {
+  border-color: var(--md-default-fg-color);
+  transform: scale(1.15);
+}
+
+/* Overlay */
+.theme-chooser-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background: rgba(0,0,0,0.3);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+.theme-chooser-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Accent preview */
+.accent-preview {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background: var(--md-default-bg-color);
+  font-size: 0.8rem;
+}
+.accent-preview a {
+  color: var(--md-accent-fg-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.accent-preview span {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.75rem;
+}

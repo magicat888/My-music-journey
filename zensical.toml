@@ -6,9 +6,25 @@ site_author = "Felix Fung"
 repo_url = "https://github.com/magicat888/My-music-journey"
 repo_name = "magicat888/My-music-journey"
 copyright = "Copyright &copy; 2024 Felix Fung"
+extra_css = ["overrides/extra.css", "overrides/theme-chooser.css"]
+extra_javascript = ["overrides/theme-chooser.js"]
 
-[theme]
-name = "slate-theme"
+[project.theme]
+name = "material"
+
+[[project.theme.palette]]
+scheme = "slate"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+scheme = "default"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to dark mode"
 
 [navigation]
 items = [
@@ -76,5 +92,3 @@ extensions = [
     "pymdownx.tabbed",
 ]
 
-[extra_css]
-files = ["overrides/extra.css"]
